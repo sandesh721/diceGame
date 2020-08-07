@@ -1,0 +1,55 @@
+html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: .5em; */
+}
+body {
+  font-family: cursive;
+  color: rgb(16, 238, 182);
+  text-align: center;
+}
+.images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -2em;
+}
+h2 {
+  padding: 1em;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px chocolate;
+}
+h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px 3px blueviolet;
+}
+.players {
+  font-size: 3em;
+  margin-bottom: -1em;
+  text-shadow: 2px 2px 3px rgb(119, 15, 238);
+}
+.one {
+  display: inline-block;
+  position: relative;
+  padding: 0 1.3em 0 1.3em;
+  margin-top: -4em;
+}
+img {
+  margin-top: 0.5em;
+  width: 200px;
+}
+#img2 {
+  margin-top: 0;
+}
+footer {
+  font-size: 1.5em;
+  text-shadow: 2px 3px 4px darkviolet;
+}
+
+@media (max-width: 520px) {
+  img {
+    width: 150px;
+  }
+}
